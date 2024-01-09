@@ -1,0 +1,9 @@
+{% extends 'book/library.html' %}
+{% load static %}
+{% block content %}
+	<center>
+	<h1 class="display-3" style="background-color:#000000;color:#FFFF99;">The Enhacned Image</h1>
+  <img src = '{% static "processed.png" %}' height="50%" width="50%">
+
+</center>
+{% endblock %}
